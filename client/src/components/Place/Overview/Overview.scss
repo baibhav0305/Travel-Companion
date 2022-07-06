@@ -1,0 +1,10 @@
+.information-container {
+  padding: 20px;
+  .details {
+    display: flex;
+    .para {
+      font-weight: 500;
+      margin: 20px;
+    }
+  }
+}

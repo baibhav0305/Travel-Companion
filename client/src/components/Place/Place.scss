@@ -1,0 +1,109 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  // padding: 0 20px 30px;
+}
+
+.search {
+  background-image: linear-gradient(to bottom, #9393ff2b, #e05ee92b);
+  display: flex;
+  padding: 0.5rem;
+  // margin: 0 20px 20px;
+  border-radius: 0.5rem;
+  width: 500px;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    input {
+      background: transparent;
+      border: none;
+      text-align: center;
+      color: black;
+      font-size: 1.3rem;
+    }
+  }
+  button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    background-color: #4361ee;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    &:hover {
+      background-color: #023e8a;
+    }
+  }
+}
+
+.information-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  min-height: 70vh;
+  background-image: linear-gradient(to bottom, #9393ff2b, #e05ee92b);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 20px -7px;
+  h4 {
+    font-weight: 700;
+  }
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.hotel-container {
+  height: 500px;
+  background-color: aliceblue;
+  padding: 30px;
+  // overflow: auto;
+  border-radius: 20px;
+  // margin: 30px;
+}
+.real {
+  height: 410px;
+  overflow: auto;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  min-height: 500px;
+  width: 350px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  p {
+    margin-bottom: 0;
+  }
+  .card {
+    margin: 15px 0;
+    // padding: 10px 0;
+    background-image: linear-gradient(to bottom, #9393ff2b, #e05ee92b);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 20px -7px;
+    border: none;
+  }
+  .card:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #9393ffb0, #e05ee9aa);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+      rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  }
+}
+
+.bucket {
+  margin: 20px 0 0;
+}

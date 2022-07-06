@@ -1,0 +1,44 @@
+.custom-card {
+  //   position: relative;
+  height: 50vh;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  .card {
+    height: 250px;
+    width: 280px;
+    margin: 10px 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    // text-align: center;
+    background-color: aliceblue;
+    border: none;
+    padding-left: 30px;
+    padding-right: 5px;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    i {
+      color: #023e8a;
+      font-size: 2.3rem;
+      padding: 5px;
+    }
+    h5 {
+      font-weight: 700;
+      padding: 5px;
+    }
+    p {
+      font-size: 1.1rem;
+      padding: 5px;
+    }
+  }
+  .card:hover {
+    background-color: rgb(216, 236, 255);
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 22px -2px,
+      rgba(0, 0, 0, 0.3) 5px 10px 7px -3px;
+  }
+}

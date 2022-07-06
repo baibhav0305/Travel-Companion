@@ -1,0 +1,43 @@
+.card.bucket {
+  cursor: pointer;
+  width: 250px;
+  border-radius: 20px;
+  margin: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #9393ff2b, #e05ee92b);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 20px -7px;
+  border: none;
+  transition: 0.3s;
+  img {
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .places {
+    padding: 0 25px 15px;
+  }
+  .icons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    i {
+      color: rgba(255, 0, 0, 0.571);
+      font-size: 1.2rem;
+    }
+    i:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+.card.bucket:hover {
+  background-image: linear-gradient(to bottom, #9393ffb0, #e05ee9aa);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}

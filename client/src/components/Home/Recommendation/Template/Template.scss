@@ -1,0 +1,29 @@
+.template {
+  cursor: pointer;
+  border-radius: 20px;
+  width: 400px;
+  background-image: linear-gradient(to bottom, #9393ff2b, #e05ee92b);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 20px -7px;
+  border: none;
+  margin: 20px 0;
+  transition: 0.3s;
+  img {
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+    margin: 25px;
+    border-radius: 15px;
+  }
+  .text {
+    padding: 0 25px 25px;
+    h5 {
+      font-weight: 700;
+    }
+  }
+}
+.template:hover {
+  background-image: linear-gradient(to bottom, #9393ffb0, #e05ee9aa);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  transform: translateX(0.4rem) translateY(-1rem);
+}

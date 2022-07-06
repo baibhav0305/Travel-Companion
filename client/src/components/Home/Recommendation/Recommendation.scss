@@ -1,0 +1,21 @@
+.recommendation {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h4 {
+    font-weight: 800;
+    margin: 20px 30px 50px;
+    padding: 20px;
+    box-shadow: rgba(233, 8, 215, 0.45) 0px 25px 20px -20px;
+    // box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+    background-color: rgb(251, 253, 255);
+  }
+  .dest {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

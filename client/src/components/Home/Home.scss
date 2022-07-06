@@ -1,0 +1,97 @@
+.container {
+  position: relative;
+  //   margin-top: 2rem;
+  .background {
+    img {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+      border-radius: 30px;
+      filter: brightness(60%);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    }
+  }
+  .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .title {
+      color: white;
+      h1 {
+        font-weight: 800;
+        font-size: 3.5rem;
+        letter-spacing: 0.2rem;
+      }
+      p {
+        text-align: center;
+        padding: 0 30vw;
+        margin-top: 0.5rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+  .search {
+    background-color: #fffcfcb9;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 2rem;
+      input {
+        background: transparent;
+        border: none;
+        text-align: center;
+        color: black;
+        font-size: 1.3rem;
+      }
+    }
+    button {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 0.3rem;
+      border: none;
+      color: white;
+      background-color: #4361ee;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      transition: 0.3s ease-in-out;
+      &:hover {
+        background-color: #023e8a;
+      }
+    }
+  }
+}
+input:focus {
+  outline: none;
+}
+
+.move {
+  z-index: 99;
+  background-color: #e982f0aa;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 50px;
+  cursor: pointer;
+}
+.move:hover {
+  background-color: #e05ee9dd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 22px -2px,
+    rgba(0, 0, 0, 0.3) 5px 10px 7px -3px;
+}
