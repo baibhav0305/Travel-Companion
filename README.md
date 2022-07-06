@@ -10,7 +10,7 @@ Travel Companion is a web app that serves you the basic details about your next 
 - Location on map and it's surroundings
 - Latest news and information
 
-## Demo
+## Live
 
 https://travel-companion69.herokuapp.com/
 
