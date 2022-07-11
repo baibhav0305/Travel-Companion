@@ -4,15 +4,18 @@ Travel Companion is a web app that serves you the basic details about your next 
 
 ## Features
 
-- An overview about your destination
+- An overview on your destination
 - Best restaurants
-- Next 3 days weather forecast
-- Location on map and it's surroundings
+- Next 3 days' weather forecast
+- Location on the map and its surroundings
 - Latest news and information
 
 ## Live
 
 https://travel-companion69.herokuapp.com/
+
+## Demo
+https://youtu.be/1-L4OyI_qx4
 
 ## Tech Stack
 
@@ -23,7 +26,7 @@ _Additional NPM packages_
 - axios
 - mapbox-gl
 - react-toastify
-- reaxt-router-dom
+- react-router-dom
 
 **Server:** Node, Express
 
