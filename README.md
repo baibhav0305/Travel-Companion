@@ -56,7 +56,7 @@ To run this project, you will need to add the following environment variables to
 Clone the project
 
 ```bash
-  git clone https://github.com/baibhav0305/Travel-Companion.git
+  git clone https://github.com/<username>/Travel-Companion.git
   npm install
 ```
 
